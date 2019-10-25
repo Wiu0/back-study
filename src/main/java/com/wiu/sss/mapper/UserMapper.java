@@ -12,7 +12,7 @@ public class UserMapper {
 		User u = new User();
 		u.setFirstName(userDTO.getFirstName());		
 		u.setLastName(userDTO.getLastName());
-		u.setBornDate(userDTO.getBornDate());
+	//	u.setBornDate(userDTO.getBornDate());
 		return u;
 	}
 	
@@ -21,7 +21,7 @@ public class UserMapper {
 		u.setId(user.getId());
 		u.setFirstName(user.getFirstName());		
 		u.setLastName(user.getLastName());
-		u.setBornDate(user.getBornDate());
+		//u.setBornDate(user.getBornDate());
 		return u;
 	}
 

@@ -23,6 +23,6 @@ public class User {
 	private String firstName;
 	@Column(length = 15)
 	private String lastName;
-	@Column
-	private Date   bornDate;
+	//@Column
+	//private Date   bornDate;
 }

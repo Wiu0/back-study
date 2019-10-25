@@ -1,6 +1,6 @@
 package com.wiu.sss.dto.user;
 
-import java.util.Date;
+import java.sql.Date;
 
 import lombok.Data;
 

@@ -26,7 +26,7 @@ public class UserService {
 	
 	public UserDTO find(long id) {
 		Optional<User> oUser = userRepository.findById(id);
-		oUser.orElseThrow();
+//		oUser.orElseThrow();
 		UserDTO map = mapper.map(oUser.get());
 		return map;
 	}
